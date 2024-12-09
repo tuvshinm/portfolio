@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+.exo-normal {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.exo-bold {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.exo-light {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
